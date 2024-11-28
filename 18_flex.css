@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    
+}
+
+.flex-container  img {
+    width: 500px;
+}
+
+.flex-container div {
+    flex-basis: 50%;
+    text-align: center;
+}
